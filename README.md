@@ -17,30 +17,6 @@ This project is an implementation of a University Schedule Management System usi
 - `university-schedule.ts`: Contains the core logic written in TypeScript.
 - `tsconfig.json`: TypeScript configuration file.
 
-## Getting Started
-
-To set up and run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone <your-repository-url>
-    ```
-   
-2. Install TypeScript globally, if not already installed:
-    ```bash
-    npm install -g typescript
-    ```
-
-3. Compile the TypeScript file:
-    ```bash
-    tsc university-schedule.ts
-    ```
-
-4. Run the JavaScript output (if using Node.js):
-    ```bash
-    node university-schedule.js
-    ```
-
 ## How to Use
 
 - **Adding a Professor**: You can add a new professor using the `addProfessor` function.
