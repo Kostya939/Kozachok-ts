@@ -24,7 +24,3 @@ This project is an implementation of a University Schedule Management System usi
 - **Search Available Classrooms**: Use the `findAvailableClassrooms` function to search for open classrooms during a specific time slot.
 - **Check Professor's Schedule**: The `getProfessorSchedule` function allows you to retrieve the schedule of a specific professor.
 - **Cancel a Lesson**: You can remove a lesson using the `cancelLesson` function.
-
-## License
-
-This project is licensed under the MIT License.
