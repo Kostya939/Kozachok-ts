@@ -1,4 +1,4 @@
-// src/modules/ui.ts
+
 import $ from "jquery"; // Потрібен пакет jquery для коректної роботи в TypeScript
 
 export function setupUI() {

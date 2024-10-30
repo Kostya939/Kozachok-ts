@@ -1,20 +1,19 @@
-// src/modules/modal.ts
 
-// Типізація для елементів модального вікна
-const modal = document.getElementById("modal") as HTMLElement;
-const openModalButton = document.getElementById("openModal") as HTMLButtonElement;
-const closeModalButton = document.getElementById("closeModal") as HTMLButtonElement;
+import { ModalElements } from "../types/modal.types";
 
-// Функція для відкриття модального вікна
+const modalElements: ModalElements = {
+    modal: document.getElementById("modal") as HTMLElement,
+    openModalButton: document.getElementById("openModal") as HTMLButtonElement,
+    closeModalButton: document.getElementById("closeModal") as HTMLButtonElement,
+};
+
 export function openModal() {
-    modal.style.display = "block";
+    modalElements.modal.style.display = "block";
 }
 
-// Функція для закриття модального вікна
 export function closeModal() {
-    modal.style.display = "none";
+    modalElements.modal.style.display = "none";
 }
 
-// Додаємо слухачі подій для відкриття та закриття модального вікна
-openModalButton.addEventListener("click", openModal);
-closeModalButton.addEventListener("click", closeModal);
+modalElements.openModalButton.addEventListener("click", openModal);
+modalElements.closeModalButton.addEventListener("click", closeModal);
